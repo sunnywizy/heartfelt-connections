@@ -140,6 +140,7 @@ header {
     margin: 20px 0;
     border-radius: 8px;
     padding: 10px;
+    box-shadow: 2px 4px #a3a5ae;
 }
 
 .red {
@@ -199,13 +200,10 @@ footer {
 
     .boxes {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     
-    .box {
-        margin-right: 50px;
-    }
 
     .box .title {
         width: 300px;
